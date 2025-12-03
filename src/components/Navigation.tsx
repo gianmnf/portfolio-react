@@ -2,10 +2,12 @@ import { useLanguage } from "@/hooks/useLanguage";
 import { useState } from 'react';
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "./ui/dropdown-menu";
 import { Button } from "./ui/button";
-import { Menu, X } from "lucide-react";
+import { Menu, Moon, Sun, X } from "lucide-react";
+import { useTheme } from "@/contexts/ThemeContext";
 
 export default function Navigation() {
     const { t, changeLanguage, currentLanguage } = useLanguage();
+    const { theme, toggleTheme } = useTheme();
     const [mobileOpen, setMobileOpen] = useState<boolean>(false);
 
     const items = [
@@ -46,6 +48,15 @@ export default function Navigation() {
                     </div>
 
                     <div className="flex items-center gap-4">
+                        <Button
+                            variant="outline"
+                            size="sm"
+                            onClick={toggleTheme}
+                            aria-label="Toggle Dark Mode"
+                            title={theme === "dark" ? "Light Mode" : "Dark Mode"}
+                        >
+                            {theme === 'dark' ? <Sun size={18} /> : <Moon size={18} />}
+                        </Button>
                         <DropdownMenu>
                             <DropdownMenuTrigger asChild>
                                 <Button variant="outline" size="sm">

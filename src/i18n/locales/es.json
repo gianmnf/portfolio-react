@@ -127,6 +127,8 @@
   "footer": {
     "links": "Enlaces Rápidos",
     "social": "Sígueme",
-    "copyright": "© 2025 Gian Michel Nunes Fernandes. Todos los derechos reservados."
+    "copyright": "© 2025 Gian Michel Nunes Fernandes. Todos los derechos reservados.",
+    "about": "Desarrollador Full Stack especializado en la creación de aplicaciones web escalables.",
+    "built": "Creado con React, Next.js y Tailwind CSS"
   }
 }

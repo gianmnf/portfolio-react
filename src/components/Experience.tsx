@@ -26,7 +26,7 @@ export default function Experience() {
                     <div className="space-y-8">
                         {experiences.map((exp, index) => (
                             <div key={index} className="relative pl-8 border-l-2 border-primary pb-8 last:pb-0">
-                                <div className="absolute -left-4 top-0 w-6 h-6 bg-primary rounded-full border-4 border-background">
+                                <div className="absolute -left-4 top-0 w-6 h-6 bg-primary rounded-full border-4 border-background" />
                                     <div className="bg-background rounded-lg p-6">
                                         <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4 mb-4">
                                             <div>
@@ -53,7 +53,6 @@ export default function Experience() {
                                             {t(`experience.${exp.key}.description`)}
                                         </p>
                                     </div>
-                                </div>
                             </div>
                         ))}
                     </div>
