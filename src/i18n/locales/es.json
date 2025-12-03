@@ -120,7 +120,8 @@
       "send": "Enviar Mensaje",
       "sending": "Enviando...",
       "success": "¡Mensaje enviado con éxito!",
-      "error": "Error al enviar el mensaje. Por favor, intenta de nuevo."
+      "error": "Error al enviar el mensaje. Por favor, intenta de nuevo.",
+      "fields": "Por favor, rellene todos los campos!"
     }
   },
   "footer": {

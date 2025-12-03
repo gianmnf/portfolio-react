@@ -120,7 +120,8 @@
       "send": "Send Message",
       "sending": "Sending...",
       "success": "Message sent successfully!",
-      "error": "Failed to send message. Please try again."
+      "error": "Failed to send message. Please try again.",
+      "fields": "Please fill all fields!"
     }
   },
   "footer": {
