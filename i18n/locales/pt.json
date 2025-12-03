@@ -1,0 +1,131 @@
+{
+  "nav": {
+    "home": "Início",
+    "about": "Sobre",
+    "experience": "Experiência",
+    "projects": "Projetos",
+    "skills": "Habilidades",
+    "education": "Educação",
+    "contact": "Contato"
+  },
+  "hero": {
+    "title": "Gian Michel Nunes Fernandes",
+    "subtitle": "Desenvolvedor Full Stack",
+    "description": "Desenvolvedor full stack experiente especializado em construir aplicações web escaláveis com tecnologias modernas. Apaixonado por criar soluções elegantes para problemas complexos.",
+    "cta": "Entre em Contato"
+  },
+  "about": {
+    "title": "Sobre Mim",
+    "description": "Sou um desenvolvedor full stack com mais de 4 anos de experiência profissional construindo aplicações web. Sou especialista em React, Next.js, Node.js e Java Spring Boot. Sou apaixonado por criar interfaces amigáveis e sistemas backend robustos.",
+    "location": "Patos de Minas, Brasil",
+    "email": "gianmnf.dev@gmail.com",
+    "phone": "+55 (34) 99990-5951"
+  },
+  "experience": {
+    "title": "Experiência Profissional",
+    "current": "Atual",
+    "position1": {
+      "title": "Desenvolvedor Full Stack",
+      "company": "Prefeitura de Patos de Minas",
+      "period": "Dez 2023 - Dez 2025",
+      "description": "Liderei iniciativas de desenvolvimento full-stack ao longo de todo o ciclo de vida de desenvolvimento de software, incluindo implementação de código, automação de deployment e gerenciamento de pipelines CI/CD usando GitHub Actions. Arquitetei e mantive serviços back-end escaláveis com Java Spring Boot enquanto desenvolvia aplicações front-end responsivas usando Next.js e React.js."
+    },
+    "position2": {
+      "title": "Desenvolvedor Full Stack",
+      "company": "Rastreagro | Teigro",
+      "period": "Mar 2021 - Set 2023",
+      "description": "Liderei arquitetura e desenvolvimento back-end para um produto greenfield usando Nest.js, entregando um sistema escalável e de alto desempenho desde o início. Contribuí para o desenvolvimento front-end com React e Redux, otimizando padrões de gerenciamento de estado. Colaborei com equipes multifuncionais em ambiente ágil para entregar funcionalidades iterativamente."
+    }
+  },
+  "projects": {
+    "title": "Projetos em Destaque",
+    "project1": {
+      "name": "Terceiro Setor",
+      "description": "Sistema de gestão para ONGs",
+      "tech": "Next.js, Prime React, Java Spring Boot, PostgreSQL, Docker",
+      "highlights": "Liderei migração de sistema legado Laravel 7 para stack moderno, reduzindo tempo de conclusão de tarefas em 60%, melhorou tempos de resposta do sistema em 40%, implementou pipelines CI/CD automatizados reduzindo tempo de deployment de horas para menos de 15 minutos"
+    },
+    "project2": {
+      "name": "Conservatório",
+      "description": "Sistema de gestão de escola de música",
+      "tech": "React.js, Prime React, Java Spring Boot",
+      "highlights": "Desenvolvi funcionalidades abrangentes de gestão, reduziu tempo de entrada manual de dados em 50%, criou sistema de planejamento de aulas melhorando preparação de curso em 30%, diminuiu tempo de processamento de registros em 45%"
+    },
+    "project3": {
+      "name": "MUP",
+      "description": "Arquivo Digital do Museu Municipal",
+      "tech": "Next.js, Tailwind CSS, Java Spring Boot",
+      "highlights": "Projetei sistema de arquivo multimídia suportando imagens, documentos, vídeos e áudio, gerenciando mais de 10.000 ativos digitais, melhorou descoberta de conteúdo em 70%"
+    },
+    "project4": {
+      "name": "Teigro",
+      "description": "Plataforma de Rastreabilidade Agrícola e Monitoramento de Cadeia Fria",
+      "tech": "React.js, Nest.js, PostgreSQL, AWS DynamoDB",
+      "highlights": "Arquitetei infraestrutura de back-end completa para plataforma de rastreabilidade agrícola, otimizei APIs RESTful reduzindo tempos médios de resposta em 45%, implementei limitação de taxa de requisições mantendo 99,8% de disponibilidade do sistema"
+    }
+  },
+  "skills": {
+    "title": "Habilidades Técnicas",
+    "languages": "Linguagens de Programação",
+    "frameworks": "Frameworks e Bibliotecas",
+    "databases": "Bancos de Dados",
+    "tools": "Ferramentas e DevOps",
+    "ui": "Bibliotecas de UI",
+    "methodologies": "Metodologias",
+    "java": "Java",
+    "javascript": "JavaScript",
+    "sql": "SQL",
+    "springBoot": "Spring Boot",
+    "nestJs": "Nest.js",
+    "nextJs": "Next.js",
+    "reactJs": "React.js",
+    "postgresql": "PostgreSQL",
+    "mysql": "MySQL",
+    "mongodb": "MongoDB",
+    "git": "Git",
+    "github": "GitHub",
+    "githubActions": "GitHub Actions",
+    "docker": "Docker",
+    "jira": "Jira",
+    "primeReact": "Prime React",
+    "tailwindCss": "Tailwind CSS",
+    "redux": "Redux",
+    "agile": "Ágil/Scrum",
+    "cicd": "CI/CD"
+  },
+  "education": {
+    "title": "Educação",
+    "degree": "Bacharel em Sistemas de Informação",
+    "university": "UNIPAM - Centro Universitário de Patos de Minas",
+    "period": "Fev 2017 - Dez 2020",
+    "description": "O curso de Sistemas de Informação desenvolve habilidades relacionadas ao planejamento, organização e desenvolvimento de sistemas de informação para empresas. Como profissional, sou capaz de identificar problemas organizacionais e definir as soluções computacionais mais otimizadas utilizando as tecnologias de informação modernas disponíveis no mercado."
+  },
+  "languages": {
+    "title": "Idiomas",
+    "portuguese": "Português",
+    "english": "Inglês",
+    "spanish": "Espanhol",
+    "native": "Nativo",
+    "advanced": "Avançado",
+    "intermediate": "Intermediário"
+  },
+  "contact": {
+    "title": "Entre em Contato",
+    "description": "Adoraria ouvir de você! Sinta-se à vontade para entrar em contato com qualquer dúvida ou oportunidade.",
+    "form": {
+      "name": "Nome",
+      "email": "Email",
+      "subject": "Assunto",
+      "message": "Mensagem",
+      "send": "Enviar Mensagem",
+      "sending": "Enviando...",
+      "success": "Mensagem enviada com sucesso!",
+      "error": "Falha ao enviar mensagem. Por favor, tente novamente."
+    }
+  },
+  "footer": {
+    "links": "Links Rápidos",
+    "social": "Me Siga",
+    "copyright": "© 2025 Gian Michel Nunes Fernandes. Todos os direitos reservados."
+  }
+}
