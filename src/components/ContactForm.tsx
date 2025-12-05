@@ -5,10 +5,12 @@ import { Textarea } from '@/components/ui/textarea';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { useState } from 'react';
 import { toast } from 'sonner';
+import { sendMail } from '@/utils/resend';
+import { Contact } from '@/types/contactForm';
 
 export default function ContactForm() {
     const { t } = useLanguage();
-    const [formData, setFormData] = useState({
+    const [formData, setFormData] = useState<Contact>({
         name: '',
         email: '',
         subject: '',
@@ -35,10 +37,10 @@ export default function ContactForm() {
         setIsLoading(true);
 
         try {
-            // TODO: Dispatch mails
-            console.log(formData);
+            await sendMail(formData);
+            toast.success(t('contact.form.success'));
         } catch (err) {
-            console.error(err);
+            toast(`${t('contact.form.error')}: ${err}`);
         } finally {
             setIsLoading(false);
         }

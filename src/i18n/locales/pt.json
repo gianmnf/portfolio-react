@@ -9,10 +9,11 @@
     "contact": "Contato"
   },
   "hero": {
-    "title": "Gian Michel Nunes Fernandes",
+    "title": "Gian Michel",
     "subtitle": "Desenvolvedor Full Stack",
     "description": "Desenvolvedor full stack experiente especializado em construir aplicações web escaláveis com tecnologias modernas. Apaixonado por criar soluções elegantes para problemas complexos.",
-    "cta": "Entre em Contato"
+    "cta": "Entre em Contato",
+    "cv": "Baixar Currículo"
   },
   "about": {
     "title": "Sobre Mim",
@@ -22,7 +23,7 @@
     "phone": "+55 (34) 99990-5951"
   },
   "experience": {
-    "title": "Experiência Profissional",
+    "title": "Anos de Experiência Profissional",
     "current": "Atual",
     "position1": {
       "title": "Desenvolvedor Full Stack",
@@ -127,7 +128,7 @@
   "footer": {
     "links": "Links Rápidos",
     "social": "Me Siga",
-    "copyright": "© 2025 Gian Michel Nunes Fernandes. Todos os direitos reservados.",
+    "copyright": "© 2025 Gian Michel. Todos os direitos reservados.",
     "about": "Desenvolvedor Full Stack especializado na criação de aplicações web escaláveis.",
     "built": "Criado com React, Next.js e Tailwind CSS"
   }

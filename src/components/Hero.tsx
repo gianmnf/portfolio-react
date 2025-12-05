@@ -2,8 +2,17 @@ import { useLanguage } from "@/hooks/useLanguage";
 import { Button } from "./ui/button";
 import { Github, Linkedin, Mail } from "lucide-react";
 
+const downloadCV = (lang: string) => {
+    const link = document.createElement('a');
+    link.href = `/Gian_Michel_Nunes_Fernandes_CV_${lang}.pdf`;
+    link.download = `Gian_Michel_Nunes_Fernandes_CV_${lang}.pdf`;
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+}
+
 export default function Hero() {
-    const { t } = useLanguage();
+    const { currentLanguage, t } = useLanguage();
 
     return (
         <section id="home" className="min-h-screen flex items-center justify-center bg-gradient-to-br from-background via-background to-primary/5 py-20">
@@ -21,13 +30,20 @@ export default function Hero() {
                         {t('hero.description')}
                     </p>
 
-                    <div className="flex-flex-col sm:flex-row gap-4 justify-center mb-12">
+                    <div className="flex-flex-col sm:flex-row gap-6 justify-center mb-12">
                         <Button
                             size="lg"
                             className="text-base"
                             onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
                         >
                             {t('hero.cta')}
+                        </Button>
+                        <Button
+                            size="lg"
+                            className="text-base"
+                            onClick={() => downloadCV(currentLanguage)}
+                        >
+                            {t('hero.cv')}
                         </Button>
                         <Button
                             size="lg"
