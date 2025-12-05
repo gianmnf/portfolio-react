@@ -1,4 +1,7 @@
 {
+  "name": "gianmnf-portfolio",
+  "version": "1.0",
+  "homepage": "https://gianmnf.com",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
