@@ -44,25 +44,25 @@
       "name": "Terceiro Setor",
       "description": "Sistema de gestão para ONGs",
       "tech": "Next.js, Prime React, Java Spring Boot, PostgreSQL, Docker",
-      "highlights": "Liderei migração de sistema legado Laravel 7 para stack moderno, reduzindo tempo de conclusão de tarefas em 60%, melhorou tempos de resposta do sistema em 40%, implementou pipelines CI/CD automatizados reduzindo tempo de deployment de horas para menos de 15 minutos"
+      "highlights": "Liderei a migração de um sistema legado em Laravel 7 para um stack moderno, reduzindo o tempo de conclusão de tarefas em 60%, melhorei os tempos de resposta do sistema em 40%, implementei pipelines CI/CD automatizadas, reduzindo o tempo de deploy de horas para menos de 15 minutos"
     },
     "project2": {
       "name": "Conservatório",
       "description": "Sistema de gestão de escola de música",
       "tech": "React.js, Prime React, Java Spring Boot",
-      "highlights": "Desenvolvi funcionalidades abrangentes de gestão, reduziu tempo de entrada manual de dados em 50%, criou sistema de planejamento de aulas melhorando preparação de curso em 30%, diminuiu tempo de processamento de registros em 45%"
+      "highlights": "Desenvolvi funcionalidades abrangentes de gestão, reduzi tempo de entrada manual de dados em 50%, participei do desenvolvimento de um sistema de planejamento de aulas melhorando preparação de curso em 30%, diminui tempo de processamento de registros em 45%"
     },
     "project3": {
       "name": "MUP",
       "description": "Arquivo Digital do Museu Municipal",
       "tech": "Next.js, Tailwind CSS, Java Spring Boot",
-      "highlights": "Projetei sistema de arquivo multimídia suportando imagens, documentos, vídeos e áudio, gerenciando mais de 10.000 ativos digitais, melhorou descoberta de conteúdo em 70%"
+      "highlights": "Projetei um sistema de arquivos multimídia suportando imagens, documentos, vídeos e áudio, gerenciando mais de 10.000 ativos digitais, melhorei a descoberta de conteúdo em 70%"
     },
     "project4": {
       "name": "Teigro",
       "description": "Plataforma de Rastreabilidade Agrícola e Monitoramento de Cadeia Fria",
       "tech": "React.js, Nest.js, PostgreSQL, AWS DynamoDB",
-      "highlights": "Arquitetei infraestrutura de back-end completa para plataforma de rastreabilidade agrícola, otimizei APIs RESTful reduzindo tempos médios de resposta em 45%, implementei limitação de taxa de requisições mantendo 99,8% de disponibilidade do sistema"
+      "highlights": "Arquitetei a infraestrutura de backend completa para uma plataforma de rastreabilidade agrícola, otimizei APIs RESTful reduzindo tempos médios de resposta em 45%, implementei limitação de taxa de requisições mantendo 99,8% de disponibilidade do sistema"
     }
   },
   "skills": {
