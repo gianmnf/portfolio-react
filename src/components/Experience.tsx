@@ -34,7 +34,7 @@ export default function Experience() {
                                                     {t(`experience.${exp.key}.title`)}
                                                 </h3>
                                                 <p className="text-lg text-primary font-semibold">
-                                                    {t(`experience.${exp.key}.title`)}
+                                                    {t(`experience.${exp.key}.company`)}
                                                 </p>
                                             </div>
                                             <div className="flex flex-col items-start md:items-end gap-2">
