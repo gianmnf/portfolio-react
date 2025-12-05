@@ -1,0 +1,135 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "experience": "Experience",
+    "projects": "Projects",
+    "skills": "Skills",
+    "education": "Education",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Gian Michel",
+    "subtitle": "Full Stack Developer",
+    "description": "Experienced full-stack developer specializing in building scalable web applications with modern technologies. Passionate about creating elegant solutions to complex problems.",
+    "cta": "Get in Touch",
+    "cv": "Download Resume/CV"
+  },
+  "about": {
+    "title": "About Me",
+    "description": "I'm a full-stack developer with over 4 years of professional experience building web applications. I specialize in React, Next.js, Node.js, and Java Spring Boot. I'm passionate about creating user-friendly interfaces and robust backend systems.",
+    "location": "Patos de Minas, Brazil",
+    "email": "gianmnf.dev@gmail.com",
+    "phone": "+55 (34) 99990-5951"
+  },
+  "experience": {
+    "title": "Years of Professional Experience",
+    "current": "Current",
+    "position1": {
+      "title": "Full Stack Developer",
+      "company": "Prefeitura de Patos de Minas",
+      "period": "Dec 2023 - Dec 2025",
+      "description": "Led full-stack development initiatives across the entire software development lifecycle, including code implementation, deployment automation, and CI/CD pipeline management using GitHub Actions. Architected and maintained scalable backend services with Java Spring Boot while developing responsive front-end applications using Next.js and React.js."
+    },
+    "position2": {
+      "title": "Full Stack Developer",
+      "company": "Rastreagro | Teigro",
+      "period": "Mar 2021 - Sep 2023",
+      "description": "Led architecture and backend development for a greenfield product using Nest.js, delivering a scalable and high-performance system from the ground up. Contributed to front-end development with React and Redux, optimizing state management patterns. Collaborated with cross-functional teams in an agile environment to deliver features iteratively."
+    }
+  },
+  "projects": {
+    "title": "Featured Projects",
+    "project1": {
+      "name": "Terceiro Setor",
+      "description": "Management system for NGOs",
+      "tech": "Next.js, Prime React, Java Spring Boot, PostgreSQL, Docker",
+      "highlights": "Led migration from legacy Laravel 7 to modern stack, reducing task completion time by 60%, improved system response times by 40%, implemented automated CI/CD pipelines reducing deployment time from hours to less than 15 minutes"
+    },
+    "project2": {
+      "name": "Conservatório",
+      "description": "Music school management system",
+      "tech": "React.js, Prime React, Java Spring Boot",
+      "highlights": "Developed comprehensive management features, reduced manual data entry time by 50%, created lesson planning system improving course preparation by 30%, decreased record processing time by 45%"
+    },
+    "project3": {
+      "name": "MUP",
+      "description": "Municipal Museum Digital Archive",
+      "tech": "Next.js, Tailwind CSS, Java Spring Boot",
+      "highlights": "Designed multimedia file system supporting images, documents, videos and audio, managing 10,000+ digital assets, improved content discovery by 70%"
+    },
+    "project4": {
+      "name": "Teigro",
+      "description": "Agricultural Traceability and Cold Chain Monitoring Platform",
+      "tech": "React.js, Nest.js, PostgreSQL, AWS DynamoDB",
+      "highlights": "Architected complete backend infrastructure for agricultural traceability platform, optimized RESTful APIs reducing average response times by 45%, implemented rate limiting and authentication layers maintaining 99.8% system availability"
+    }
+  },
+  "skills": {
+    "title": "Technical Skills",
+    "languages": "Programming Languages",
+    "frameworks": "Frameworks & Libraries",
+    "databases": "Databases",
+    "tools": "Tools & DevOps",
+    "ui": "UI Libraries",
+    "methodologies": "Methodologies",
+    "java": "Java",
+    "javascript": "JavaScript",
+    "sql": "SQL",
+    "springBoot": "Spring Boot",
+    "nestJs": "Nest.js",
+    "nextJs": "Next.js",
+    "reactJs": "React.js",
+    "postgresql": "PostgreSQL",
+    "mysql": "MySQL",
+    "mongodb": "MongoDB",
+    "git": "Git",
+    "github": "GitHub",
+    "githubActions": "GitHub Actions",
+    "docker": "Docker",
+    "jira": "Jira",
+    "primeReact": "Prime React",
+    "tailwindCss": "Tailwind CSS",
+    "redux": "Redux",
+    "agile": "Agile/Scrum",
+    "cicd": "CI/CD"
+  },
+  "education": {
+    "title": "Education",
+    "degree": "Bachelor of Science in Information Systems",
+    "university": "UNIPAM - Centro Universitário de Patos de Minas",
+    "period": "Feb 2017 - Dec 2020",
+    "description": "The Information Systems course develops skills related to planning, organization and development of information systems for companies. As a professional, I am capable of identifying organizational problems and defining the most optimized computational solutions using modern information technologies available in the market."
+  },
+  "languages": {
+    "title": "Languages",
+    "portuguese": "Portuguese",
+    "english": "English",
+    "spanish": "Spanish",
+    "native": "Native",
+    "advanced": "Advanced",
+    "intermediate": "Intermediate"
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "description": "I'd love to hear from you! Feel free to reach out with any questions or opportunities.",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "subject": "Subject",
+      "message": "Message",
+      "send": "Send Message",
+      "sending": "Sending...",
+      "success": "Message sent successfully!",
+      "error": "Failed to send message. Please try again.",
+      "fields": "Please fill all fields!"
+    }
+  },
+  "footer": {
+    "links": "Quick Links",
+    "social": "Follow Me",
+    "copyright": "© 2025 Gian Michel. All rights reserved.",
+    "about": "Full Stack Developer specializing in building scalable web applications.",
+    "built": "Built with React, Next.js and Tailwind CSS"
+  }
+}
