@@ -47,14 +47,14 @@ export default function ContactForm() {
     };
 
     return (
-        <section id="contact" className="py-20 bg-accent/30">
+        <section id="contact" className="neo-band py-20 bg-accent">
             <div className="container mx-auto px-4">
                 <div className="max-w-2xl mx-auto">
-                    <h2 className="text-4xl font-bold text-foreground mb-4 text-center">
+                    <h2 className="neo-section-title mb-6">
                         {t('contact.title')}
                     </h2>
 
-                    <p className="text-lg text-muted-foreground mb-12 text-center">
+                    <p className="mb-12 border-4 border-foreground bg-background p-4 text-lg font-semibold text-foreground neo-shadow-sm">
                         {t('contact.description')}
                     </p>
 
@@ -66,7 +66,7 @@ export default function ContactForm() {
                         <CardContent>
                             <form onSubmit={handleSubmit} className="space-y-6">
                                 <div>
-                                    <label htmlFor="name" className="block text-sm font-medium text-foreground mb-2">{t('contact.form.name')}</label>
+                                    <label htmlFor="name" className="block text-sm font-black uppercase text-foreground mb-2">{t('contact.form.name')}</label>
                                     <Input
                                         id="name"
                                         name="name"
@@ -78,7 +78,7 @@ export default function ContactForm() {
                                     />
                                 </div>
                                 <div>
-                                    <label htmlFor="email" className="block text-sm font-medium text-foreground mb-2">{t('contact.form.email')}</label>
+                                    <label htmlFor="email" className="block text-sm font-black uppercase text-foreground mb-2">{t('contact.form.email')}</label>
                                     <Input
                                         id="email"
                                         name="email"
@@ -90,7 +90,7 @@ export default function ContactForm() {
                                     />
                                 </div>
                                 <div>
-                                    <label htmlFor="subject" className="block text-sm font-medium text-foreground mb-2">{t('contact.form.subject')}</label>
+                                    <label htmlFor="subject" className="block text-sm font-black uppercase text-foreground mb-2">{t('contact.form.subject')}</label>
                                     <Input
                                         id="subject"
                                         name="subject"
@@ -102,7 +102,7 @@ export default function ContactForm() {
                                     />
                                 </div>
                                 <div>
-                                    <label htmlFor="message" className="block text-sm font-medium text-foreground mb-2">{t('contact.form.message')}</label>
+                                    <label htmlFor="message" className="block text-sm font-black uppercase text-foreground mb-2">{t('contact.form.message')}</label>
                                     <Textarea
                                         id="message"
                                         name="message"

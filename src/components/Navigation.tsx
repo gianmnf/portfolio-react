@@ -9,6 +9,7 @@ export default function Navigation() {
     const { t, changeLanguage, currentLanguage } = useLanguage();
     const { theme, toggleTheme } = useTheme();
     const [mobileOpen, setMobileOpen] = useState<boolean>(false);
+    const languageCode = currentLanguage.split('-')[0];
 
     const items = [
         { label: t('nav.home'), href: '#home' },
@@ -27,12 +28,12 @@ export default function Navigation() {
     };
 
     return (
-        <nav className="sticky top-0 z-50 bg-background border-b border-border">
+        <nav className="sticky top-0 z-50 border-b-4 border-foreground bg-background">
             <div className="container mx-auto px-4 py-4">
-                <div className="flex justify-between items-center">
-                    <div className="text-2xl font-bold text-foreground">
+                <div className="relative flex items-center justify-between">
+                    <div className="border-4 border-foreground bg-primary px-3 py-1 text-2xl font-black text-primary-foreground neo-shadow-sm">
                         GM
-                        <span className="text-primary">.</span>
+                        <span className="text-accent">.</span>
                     </div>
 
                     <div className="hidden md:flex items-center gap-8">
@@ -40,17 +41,17 @@ export default function Navigation() {
                             <a
                                 key={item.href}
                                 href={item.href}
-                                className="text-sm font-medium text-foreground hover:text-primary transition-colors"
+                                className="border-b-4 border-transparent text-sm font-black uppercase text-foreground transition-colors hover:border-primary hover:text-primary"
                             >
                                 {item.label}
                             </a>
                         ))}
                     </div>
 
-                    <div className="flex items-center gap-4">
+                    <div className="absolute right-0 top-1/2 flex -translate-y-1/2 items-center gap-2 sm:gap-4 md:static md:translate-y-0">
                         <Button
                             variant="outline"
-                            size="sm"
+                            size="icon-sm"
                             onClick={toggleTheme}
                             aria-label="Toggle Dark Mode"
                             title={theme === "dark" ? "Light Mode" : "Dark Mode"}
@@ -59,15 +60,15 @@ export default function Navigation() {
                         </Button>
                         <DropdownMenu>
                             <DropdownMenuTrigger asChild>
-                                <Button variant="outline" size="sm">
-                                    {currentLanguage.toUpperCase()}
+                                <Button variant="outline" size="sm" className="hidden px-2 sm:inline-flex sm:px-3">
+                                    {languageCode.toUpperCase()}
                                 </Button>
                             </DropdownMenuTrigger>
                             <DropdownMenuContent align="end">
                                 {['en', 'es', 'pt'].map((lang) => (
                                     <DropdownMenuItem
                                         key={lang}
-                                        onClick={() => changeLanguage(lang)} className={currentLanguage === lang ? 'bg-accent' : ''}
+                                        onClick={() => changeLanguage(lang)} className={languageCode === lang ? 'bg-accent' : ''}
                                     >
                                         {languageNames[lang]}
                                     </DropdownMenuItem>
@@ -87,7 +88,7 @@ export default function Navigation() {
                             <a
                                 key={item.href}
                                 href={item.href}
-                                className="block px-4 py-2 text-sm font-medium text-foreground hover:bg-accent rounded-md transition-colors"
+                                className="block border-2 border-foreground bg-background px-4 py-2 text-sm font-black uppercase text-foreground transition-colors hover:bg-accent"
                                 onClick={() => setMobileOpen(false)}
                             >
                                 {item.label}

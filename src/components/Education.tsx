@@ -9,11 +9,11 @@ export default function Education() {
         <section id="education" className="py-20 bg-background">
             <div className="container mx-auto px-4">
                 <div className="max-w-4xl mx-auto">
-                    <h2 className="text-4xl font-bold text-foreground mb-12">
+                    <h2 className="neo-section-title mb-12">
                         {t('education.title')}
                     </h2>
 
-                    <Card className="border-2 border-primary">
+                    <Card>
                         <CardHeader>
                             <div className="flex items-start gap-4">
                                 <GraduationCap className="text-primary flex-shrink-0 mt-1" size={32} />
@@ -22,46 +22,46 @@ export default function Education() {
                                     <CardDescription className="text-base mt-2">
                                         {t('education.university')}
                                     </CardDescription>
-                                    <p className="text-sm text-muted-foreground mt-2">
+                                    <p className="mt-2 inline-block border-2 border-foreground bg-accent px-3 py-1 text-sm font-black uppercase text-accent-foreground">
                                         {t('education.period')}
                                     </p>
                                 </div>
                             </div>
                         </CardHeader>
                         <CardContent>
-                            <p className="text-muted-foreground leading-relaxed">
+                            <p className="font-semibold text-muted-foreground leading-relaxed">
                                 {t('education.description')}
                             </p>
                         </CardContent>
                     </Card>
 
                     <div className="mt-12">
-                        <h3 className="text-2xl font-bold text-foreground mb-6">
-                            {t('languages.title')}
-                        </h3>
+                            <h3 className="mb-6 inline-block border-4 border-foreground bg-secondary px-4 py-2 text-2xl font-black uppercase text-secondary-foreground neo-shadow-sm">
+                                {t('languages.title')}
+                            </h3>
                         <div className="grid md:grid-cols-3 gap-4">
                             <Card>
                                 <CardContent className="pt-6">
-                                    <p className="font-semibold text-foreground mb-2">
+                                    <p className="font-black uppercase text-foreground mb-2">
                                         {t('languages.portuguese')}
                                     </p>
-                                    <p className="text-primary font-semibold">{t('languages.native')}</p>
+                                    <p className="text-primary font-black">{t('languages.native')}</p>
                                 </CardContent>
                             </Card>
                             <Card>
                                 <CardContent className="pt-6">
-                                    <p className="font-semibold text-foreground mb-2">
+                                    <p className="font-black uppercase text-foreground mb-2">
                                         {t('languages.english')}
                                     </p>
-                                    <p className="text-primary font-semibold">{t('languages.advanced')}</p>
+                                    <p className="text-primary font-black">{t('languages.advanced')}</p>
                                 </CardContent>
                             </Card>
                             <Card>
                                 <CardContent className="pt-6">
-                                    <p className="font-semibold text-foreground mb-2">
+                                    <p className="font-black uppercase text-foreground mb-2">
                                         {t('languages.spanish')}
                                     </p>
-                                    <p className="text-primary font-semibold">{t('languages.intermediate')}</p>
+                                    <p className="text-primary font-black">{t('languages.intermediate')}</p>
                                 </CardContent>
                             </Card>
                         </div>

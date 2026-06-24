@@ -16,7 +16,7 @@ import { TooltipProvider } from "./components/ui/tooltip";
 
 function Portfolio() {
     return (
-        <div className="min-h-screen flex flex-col">
+        <div className="min-h-screen flex flex-col overflow-x-hidden">
             <Navigation />
             <main className="flex-1">
                 <Hero />

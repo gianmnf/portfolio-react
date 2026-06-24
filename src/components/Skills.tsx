@@ -59,16 +59,16 @@ export default function Skills() {
     ];
 
     return (
-        <section id="skills" className="py-20 bg-accent/30">
+        <section id="skills" className="neo-band py-20 bg-primary">
             <div className="container mx-auto px-4">
                 <div className="max-w-6xl mx-auto">
-                    <h2 className="text-4xl font-bold text-foreground mb-12">
+                    <h2 className="neo-section-title mb-12 bg-secondary text-secondary-foreground">
                         {t('skills.title')}
                     </h2>
 
                     <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
                         {skillCategories.map((category, index) => (
-                            <Card key={index}>
+                            <Card key={index} className={index % 3 === 0 ? 'bg-accent' : index % 3 === 1 ? 'bg-background' : 'bg-secondary'}>
                                 <CardHeader>
                                     <CardTitle className="text-lg">{category.title}</CardTitle>
                                 </CardHeader>
